@@ -1,0 +1,46 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://cheemaproperties.com/sitemap.xml
+
+# Contact Information
+# Contact: balvircheema2016@gmail.com
+# Contact: +91-9056330000
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Specific directives for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot  
+Allow: /
+Crawl-delay: 1
+
+# Social media bots
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Real Estate specific
+Allow: /properties
+Allow: /contact
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.webp
+
+# Block sensitive areas
+Disallow: /admin/*
+Disallow: /private/*
+Disallow: /.git/*
+Disallow: /node_modules/*
